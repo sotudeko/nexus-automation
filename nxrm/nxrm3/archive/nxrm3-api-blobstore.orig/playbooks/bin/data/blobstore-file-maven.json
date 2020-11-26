@@ -1,0 +1,9 @@
+{
+  "nxrm3_blob_name": "maven",
+  "nxrm3_blob_path": "/opt/nxrm3/sonatype-work/nexus3/blobs/maven",
+  "nxrm3_blob_softQuota": {
+    "type": "string",
+    "limit": 0
+  }
+}
+

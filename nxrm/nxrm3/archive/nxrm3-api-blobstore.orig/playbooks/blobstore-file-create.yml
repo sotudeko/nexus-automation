@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+    - { role: nxrm3-api-blobstore-file-create, nxrm3_data: "{{ nxrm3_blobstore_file }}", nxrm3_api: "{{ nxrm3_blobstore_file_api }}" }
+      
+

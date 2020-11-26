@@ -1,0 +1,178 @@
+{
+    "components": [
+        {
+            "componentIdentifier": {
+                "coordinates": {
+                    "packageId": "MySql.Data",
+                    "version": "8.0.16"
+                },
+                "format": "nuget"
+            },
+            "displayName": "MySql.Data 8.0.16",
+            "hash": "0ca9e26dbdc5156b84b6",
+            "licenseData": {
+                "declaredLicenses": [
+                    {
+                        "licenseId": "GPL-2.0",
+                        "licenseName": "GPL-2.0"
+                    }
+                ],
+                "effectiveLicenseThreats": [
+                    {
+                        "licenseThreatGroupCategory": "critical",
+                        "licenseThreatGroupLevel": 9,
+                        "licenseThreatGroupName": "Copyleft"
+                    },
+                    {
+                        "licenseThreatGroupCategory": "no-threat",
+                        "licenseThreatGroupLevel": 0,
+                        "licenseThreatGroupName": "Sonatype Informational"
+                    }
+                ],
+                "effectiveLicenses": [
+                    {
+                        "licenseId": "GPL-2.0",
+                        "licenseName": "GPL-2.0"
+                    }
+                ],
+                "observedLicenses": [
+                    {
+                        "licenseId": "Not-Supported",
+                        "licenseName": "Not Supported"
+                    }
+                ],
+                "overriddenLicenses": [],
+                "status": "Open"
+            },
+            "matchState": "exact",
+            "packageUrl": "pkg:nuget/MySql.Data@8.0.16",
+            "pathnames": [
+                "./mysql.data.8.0.16.nupkg"
+            ],
+            "proprietary": false,
+            "securityData": {
+                "securityIssues": []
+            }
+        },
+        {
+            "componentIdentifier": {
+                "coordinates": {
+                    "packageId": "NUnit",
+                    "version": "3.12.0"
+                },
+                "format": "nuget"
+            },
+            "displayName": "NUnit 3.12.0",
+            "hash": "73b51b468a7c9afc465f",
+            "licenseData": {
+                "declaredLicenses": [
+                    {
+                        "licenseId": "UNKNOWN",
+                        "licenseName": "Non-Standard"
+                    },
+                    {
+                        "licenseId": "See-License-Clause",
+                        "licenseName": "See-License-Clause"
+                    }
+                ],
+                "effectiveLicenseThreats": [
+                    {
+                        "licenseThreatGroupCategory": "severe",
+                        "licenseThreatGroupLevel": 6,
+                        "licenseThreatGroupName": "Non Standard"
+                    },
+                    {
+                        "licenseThreatGroupCategory": "no-threat",
+                        "licenseThreatGroupLevel": 0,
+                        "licenseThreatGroupName": "Sonatype Informational"
+                    }
+                ],
+                "effectiveLicenses": [
+                    {
+                        "licenseId": "UNKNOWN",
+                        "licenseName": "Non-Standard"
+                    },
+                    {
+                        "licenseId": "See-License-Clause",
+                        "licenseName": "See-License-Clause"
+                    }
+                ],
+                "observedLicenses": [
+                    {
+                        "licenseId": "Not-Supported",
+                        "licenseName": "Not Supported"
+                    }
+                ],
+                "overriddenLicenses": [],
+                "status": "Open"
+            },
+            "matchState": "exact",
+            "packageUrl": "pkg:nuget/NUnit@3.12.0",
+            "pathnames": [
+                "./nunit.3.12.0.nupkg"
+            ],
+            "proprietary": false,
+            "securityData": {
+                "securityIssues": []
+            }
+        },
+        {
+            "componentIdentifier": {
+                "coordinates": {
+                    "packageId": "EntityFramework",
+                    "version": "6.2.0"
+                },
+                "format": "nuget"
+            },
+            "displayName": "EntityFramework 6.2.0",
+            "hash": "947a40920f7640508f5d",
+            "licenseData": {
+                "declaredLicenses": [
+                    {
+                        "licenseId": "MS-.NET-Library",
+                        "licenseName": "MS-.NET-Library"
+                    }
+                ],
+                "effectiveLicenseThreats": [
+                    {
+                        "licenseThreatGroupCategory": "severe",
+                        "licenseThreatGroupLevel": 7,
+                        "licenseThreatGroupName": "Commercial"
+                    },
+                    {
+                        "licenseThreatGroupCategory": "no-threat",
+                        "licenseThreatGroupLevel": 0,
+                        "licenseThreatGroupName": "Sonatype Informational"
+                    }
+                ],
+                "effectiveLicenses": [
+                    {
+                        "licenseId": "MS-.NET-Library",
+                        "licenseName": "MS-.NET-Library"
+                    }
+                ],
+                "observedLicenses": [
+                    {
+                        "licenseId": "Not-Supported",
+                        "licenseName": "Not Supported"
+                    }
+                ],
+                "overriddenLicenses": [],
+                "status": "Open"
+            },
+            "matchState": "exact",
+            "packageUrl": "pkg:nuget/EntityFramework@6.2.0",
+            "pathnames": [
+                "./entityframework.6.2.0.nupkg"
+            ],
+            "proprietary": false,
+            "securityData": {
+                "securityIssues": []
+            }
+        }
+    ],
+    "matchSummary": {
+        "knownComponentCount": 3,
+        "totalComponentCount": 3
+    }
+}

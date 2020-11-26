@@ -1,0 +1,10 @@
+---
+
+nxrm3_blobstore_file_api: service/rest/beta/blobstores/file
+
+nxrm3_instances:
+    - name: uk
+      host: http://localhost
+      port: 8081
+      user: admin
+      passwd: admin123

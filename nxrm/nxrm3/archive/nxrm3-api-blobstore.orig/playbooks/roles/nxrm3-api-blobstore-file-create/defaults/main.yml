@@ -1,0 +1,7 @@
+---
+# defaults file for nxrm3-api-blobstore-file-create
+
+nxrm3_blobstore_file:
+  name: "{{ nxrm3_blob_name }}"
+  path: "{{ nxrm3_blob_path }}"  
+ 
