@@ -1,0 +1,52 @@
+[
+    {
+        "stage": "build",
+        "applicationId": "0f34ac800afd4c3587321e2ef494e933",
+        "evaluationDate": "2020-11-05T14:30:55.632Z",
+        "latestReportHtmlUrl": "ui/links/application/samplejs/latestReport/build",
+        "reportHtmlUrl": "ui/links/application/samplejs/report/149a494a809b437bbe6bf2ba431d1d4e",
+        "embeddableReportHtmlUrl": "ui/links/application/samplejs/report/149a494a809b437bbe6bf2ba431d1d4e/embeddable",
+        "reportPdfUrl": "ui/links/application/samplejs/report/149a494a809b437bbe6bf2ba431d1d4e/pdf",
+        "reportDataUrl": "api/v2/applications/samplejs/reports/149a494a809b437bbe6bf2ba431d1d4e/raw"
+    },
+    {
+        "stage": "build",
+        "applicationId": "1006f15aa80248aaadfc4f12c2fd969e",
+        "evaluationDate": "2020-11-06T19:27:39.523Z",
+        "latestReportHtmlUrl": "ui/links/application/webgoat9/latestReport/build",
+        "reportHtmlUrl": "ui/links/application/webgoat9/report/6c65972f11724b748a7b044edd397332",
+        "embeddableReportHtmlUrl": "ui/links/application/webgoat9/report/6c65972f11724b748a7b044edd397332/embeddable",
+        "reportPdfUrl": "ui/links/application/webgoat9/report/6c65972f11724b748a7b044edd397332/pdf",
+        "reportDataUrl": "api/v2/applications/webgoat9/reports/6c65972f11724b748a7b044edd397332/raw"
+    },
+    {
+        "stage": "build",
+        "applicationId": "527d4be2296f4ed880018504d8e4ec1e",
+        "evaluationDate": "2020-11-03T13:43:06.890Z",
+        "latestReportHtmlUrl": "ui/links/application/webgoat1/latestReport/build",
+        "reportHtmlUrl": "ui/links/application/webgoat1/report/8e18aaaabd9c408d849568f6c10a8090",
+        "embeddableReportHtmlUrl": "ui/links/application/webgoat1/report/8e18aaaabd9c408d849568f6c10a8090/embeddable",
+        "reportPdfUrl": "ui/links/application/webgoat1/report/8e18aaaabd9c408d849568f6c10a8090/pdf",
+        "reportDataUrl": "api/v2/applications/webgoat1/reports/8e18aaaabd9c408d849568f6c10a8090/raw"
+    },
+    {
+        "stage": "build",
+        "applicationId": "8e03d0cb4a0742358eb176e03b17d4f0",
+        "evaluationDate": "2020-11-05T18:19:10.783Z",
+        "latestReportHtmlUrl": "ui/links/application/webgoat-bbc/latestReport/build",
+        "reportHtmlUrl": "ui/links/application/webgoat-bbc/report/e84b66c4a4854a488734aa618fca292d",
+        "embeddableReportHtmlUrl": "ui/links/application/webgoat-bbc/report/e84b66c4a4854a488734aa618fca292d/embeddable",
+        "reportPdfUrl": "ui/links/application/webgoat-bbc/report/e84b66c4a4854a488734aa618fca292d/pdf",
+        "reportDataUrl": "api/v2/applications/webgoat-bbc/reports/e84b66c4a4854a488734aa618fca292d/raw"
+    },
+    {
+        "stage": "build",
+        "applicationId": "a932515090cd44e8a2ccea212a99bd00",
+        "evaluationDate": "2020-11-05T18:19:45.347Z",
+        "latestReportHtmlUrl": "ui/links/application/webgoat-bb/latestReport/build",
+        "reportHtmlUrl": "ui/links/application/webgoat-bb/report/a6811d878a1847bd8a54ab2377bcaa29",
+        "embeddableReportHtmlUrl": "ui/links/application/webgoat-bb/report/a6811d878a1847bd8a54ab2377bcaa29/embeddable",
+        "reportPdfUrl": "ui/links/application/webgoat-bb/report/a6811d878a1847bd8a54ab2377bcaa29/pdf",
+        "reportDataUrl": "api/v2/applications/webgoat-bb/reports/a6811d878a1847bd8a54ab2377bcaa29/raw"
+    }
+]

@@ -1,0 +1,120 @@
+{
+    "securityOverrides": [
+        {
+            "securityOverrideId": "45b4803f33e14eceafe17d1901277c3f",
+            "hash": "00b2ab221c7b2397452e",
+            "referenceId": "sonatype-2019-0500",
+            "status": "Confirmed",
+            "comment": "",
+            "owner": {
+                "ownerPublicId": "samplejs",
+                "ownerId": "0f34ac800afd4c3587321e2ef494e933",
+                "ownerName": "samplejs",
+                "ownerType": "APPLICATION"
+            },
+            "currentlyAffectedComponents": [
+                {
+                    "packageUrl": "pkg:npm/lodash@1.3.1",
+                    "hash": "00b2ab221c7b2397452e",
+                    "componentIdentifier": {
+                        "format": "npm",
+                        "coordinates": {
+                            "packageId": "lodash",
+                            "version": "1.3.1"
+                        }
+                    },
+                    "displayName": "lodash : 1.3.1",
+                    "proprietary": false,
+                    "thirdParty": false
+                }
+            ]
+        },
+        {
+            "securityOverrideId": "cbf8ebe78172427ebb14268330657cf5",
+            "hash": "00b2ab221c7b2397452e",
+            "referenceId": "sonatype-2020-0776",
+            "status": "Acknowledged",
+            "comment": "",
+            "owner": {
+                "ownerPublicId": "samplejs",
+                "ownerId": "0f34ac800afd4c3587321e2ef494e933",
+                "ownerName": "samplejs",
+                "ownerType": "APPLICATION"
+            },
+            "currentlyAffectedComponents": [
+                {
+                    "packageUrl": "pkg:npm/lodash@1.3.1",
+                    "hash": "00b2ab221c7b2397452e",
+                    "componentIdentifier": {
+                        "format": "npm",
+                        "coordinates": {
+                            "packageId": "lodash",
+                            "version": "1.3.1"
+                        }
+                    },
+                    "displayName": "lodash : 1.3.1",
+                    "proprietary": false,
+                    "thirdParty": false
+                }
+            ]
+        },
+        {
+            "securityOverrideId": "f61bb157687244118626828bf3768654",
+            "hash": "00b2ab221c7b2397452e",
+            "referenceId": "sonatype-2020-0777",
+            "status": "Not Applicable",
+            "comment": "",
+            "owner": {
+                "ownerPublicId": "samplejs",
+                "ownerId": "0f34ac800afd4c3587321e2ef494e933",
+                "ownerName": "samplejs",
+                "ownerType": "APPLICATION"
+            },
+            "currentlyAffectedComponents": [
+                {
+                    "packageUrl": "pkg:npm/lodash@1.3.1",
+                    "hash": "00b2ab221c7b2397452e",
+                    "componentIdentifier": {
+                        "format": "npm",
+                        "coordinates": {
+                            "packageId": "lodash",
+                            "version": "1.3.1"
+                        }
+                    },
+                    "displayName": "lodash : 1.3.1",
+                    "proprietary": false,
+                    "thirdParty": false
+                }
+            ]
+        },
+        {
+            "securityOverrideId": "e08f442e8cc94b25a0f81704d9d4107b",
+            "hash": "ca6fdd0065ad078fc0a0",
+            "referenceId": "CVE-2020-15366",
+            "status": "Confirmed",
+            "comment": "",
+            "owner": {
+                "ownerPublicId": "samplejs",
+                "ownerId": "0f34ac800afd4c3587321e2ef494e933",
+                "ownerName": "samplejs",
+                "ownerType": "APPLICATION"
+            },
+            "currentlyAffectedComponents": [
+                {
+                    "packageUrl": "pkg:npm/ajv@6.12.0",
+                    "hash": "ca6fdd0065ad078fc0a0",
+                    "componentIdentifier": {
+                        "format": "npm",
+                        "coordinates": {
+                            "packageId": "ajv",
+                            "version": "6.12.0"
+                        }
+                    },
+                    "displayName": "ajv : 6.12.0",
+                    "proprietary": false,
+                    "thirdParty": false
+                }
+            ]
+        }
+    ]
+}

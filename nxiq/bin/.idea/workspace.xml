@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38014de9-0da9-42b7-a9ce-25a25b3ffce0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../3rdparty_scanning/demo/scanfiles.old/clair-scanner-output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-status-report.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1kSUNzHa2pUlJSV1jfW7BZUbqw1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38014de9-0da9-42b7-a9ce-25a25b3ffce0" name="Default Changelist" comment="" />
+      <created>1605693450301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605693450301</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="235" y="52" key="#Plugins" timestamp="1605693711661">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="235" y="52" key="#Plugins/0.1103.1680.983/0.23.1920.1057@0.23.1920.1057" timestamp="1605693711661" />
+  </component>
+</project>
