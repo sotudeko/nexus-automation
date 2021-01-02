@@ -1,0 +1,6 @@
+
+download_path: /var/tmp/downloads/iqupgrade
+download_url: https://download.sonatype.com/clm/server/latest.zip
+
+install_path: /opt/nxiq
+

@@ -1,0 +1,11 @@
+---
+# defaults file for nxiq
+
+service_port: 8070
+admin_port: 8071
+iq_host: localhost
+
+dir_owner: solao
+dir_group: staff
+dir_mode: 0755
+

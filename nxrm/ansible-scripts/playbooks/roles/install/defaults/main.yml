@@ -1,0 +1,13 @@
+---
+# defaults file for install
+
+# mac, unix, win64
+os_platform: mac
+download_file: "latest-{{ os_platform }}.tgz"
+
+download_path: /var/tmp/downloads
+install_path: /opt/nxrm3
+
+nxrm_platform: 3
+download_url: "https://download.sonatype.com/nexus/{{ nxrm_platform }}/{{ download_file }}"
+

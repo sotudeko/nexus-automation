@@ -1,5 +1,5 @@
 ---
-# tasks file for nxiq
+# tasks file for install
 
 - include: install.yml
   when: install_mode == "install"

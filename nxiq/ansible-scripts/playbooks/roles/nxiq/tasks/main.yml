@@ -1,0 +1,24 @@
+---
+# tasks file for nxiq
+
+- name: create install directory
+  become: yes
+  file:
+    path: "{{ install_path }}"
+    state: directory
+    owner: "{{ dir_owner }}"
+    group: "{{ dir_group }}"
+    mode: "{{ dir_mode }}"
+
+- name: download install file
+  unarchive:
+    remote_src: yes
+    src: "{{ download_url }}"
+    dest: "{{ install_path }}"
+
+- name: install config.yml file
+  template:
+    src: config.yml.j2
+    dest: "{{ install_path }}/config.yml"
+
+

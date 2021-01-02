@@ -1,0 +1,30 @@
+---
+- name: Upgrade Nexus IQ
+  hosts: controller
+
+  tasks:
+  - name: remove download directory if it exists
+    file:
+      path: "{{ download_path }}"
+      state: absent
+
+  - name: create download directory
+    file:
+      path: "{{ download_path }}"
+      state: directory
+
+  - name: download latest version file 
+    unarchive:
+      remote_src: yes
+      src: "{{ download_url }}"
+      dest: "{{ download_path }}"
+    register: op
+
+  - debug:
+      var: op
+
+
+
+
+
+
