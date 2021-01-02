@@ -1,0 +1,46 @@
+---
+- name: create download directory
+  become: yes
+  file:
+    path: "{{ download_path }}"
+    state: directory
+    owner: "{{ dir_owner }}"
+    group: "{{ dir_group }}"
+    mode: "{{ dir_mode }}"
+
+- name: create install directory
+  become: yes
+  file:
+    path: "{{ install_path }}"
+    state: directory
+    owner: "{{ dir_owner }}"
+    group: "{{ dir_group }}"
+    mode: "{{ dir_mode }}"
+
+- name: download install file
+  get_url:
+    url: "{{ download_url }}"
+    dest: "{{ download_path }}"
+    mode: 0755
+  register: op
+
+- name: download file name
+  set_fact:
+    download_file: "{{ op.dest }}"
+
+- debug:
+    msg: "Downloaded file is {{ download_file }}"
+
+- name: install file {{ download_file }}
+  unarchive:
+    src: "{{ download_file }}"
+    dest: "{{ install_path }}"
+
+- name: install config.yml file
+  template:
+    src: config.yml.j2
+    dest: "{{ install_path }}/config.yml"
+
+
+
+

@@ -1,0 +1,6 @@
+---
+- hosts: controller
+  roles:
+    - { role: nxiq, install_mode: "{{ installl_mode }}" }
+
+

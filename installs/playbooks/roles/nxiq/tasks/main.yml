@@ -1,0 +1,10 @@
+---
+# tasks file for nxiq
+
+- include: install.yml
+  when: install_mode == "install"
+
+- include: upgrade.yml
+  when: install_mode == "upgrade"
+
+

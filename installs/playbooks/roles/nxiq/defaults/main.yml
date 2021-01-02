@@ -1,0 +1,12 @@
+---
+# defaults file for nxiq
+
+download_file: latest.zip
+download_path: /var/tmp/downloads
+install_path: /opt/nxiq
+download_url: "https://download.sonatype.com/clm/server/{{ download_file }}"
+
+service_port: 8070
+admin_port: 8071
+iq_host: localhost
+
