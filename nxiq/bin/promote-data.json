@@ -1,4 +1,4 @@
 {
 "sourceStageId": "build",
-"targetStageId": "build"
+"targetStageId": "stage-release"
 }
