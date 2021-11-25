@@ -25,7 +25,6 @@ def getData(end_point):
 
 def inspect_users(users):
     for user in users:
-        user_roles = ""
         
         firstname = user["firstName"]
         lasttname = user["lastName"]
@@ -33,21 +32,17 @@ def inspect_users(users):
         user_name = id + " (" + firstname + " " + lasttname + ")"
 
         for role in user["roles"]:
-            user_roles += role + ","
-            
             if role not in roles:
                 roles[role] = []
                 
             roles[role].append(user_name)
-
-        user_roles = user_roles.rstrip(',')
-        print(user_name + " [roles: " + user_roles + "]")
-        
+            
         
 def main():
     users_endpoint = "v1/security/users"
     users = getData(users_endpoint) 
-    print(json.dumps(users, indent=2))
+    
+    #print(json.dumps(users, indent=2))
     
     inspect_users(users)
 
