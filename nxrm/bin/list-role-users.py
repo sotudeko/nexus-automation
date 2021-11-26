@@ -49,10 +49,23 @@ def getData(end_point):
 def inspect_users(users):
     for user in users:
         
-        firstname = user["firstName"""]
+        user_name = ""
+        firstname = ""
         lastname = ""
+        
         id = user["userId"]
-        user_name = id + " (" + firstname + " " + lastname + ")"
+        user_name = id + " ("
+
+        firstname = user["firstName"""]
+        lastname = user["lastName"]
+        
+        if firstname:
+            user_name += firstname
+            
+        if lastname:
+            user_name += " " + lastname 
+            
+        user_name += ")"
 
         for role in user["roles"]:
             if role not in roles:
